@@ -1,0 +1,20 @@
+[tool.poetry]
+name="vision-starter"
+version="0.1.0"
+description ="Reproducible computer vision code"
+authors =["Anshuman Rai"]
+
+[tool.poetry.dependencies]
+python="^3.11"
+numpy="^2.0.0"
+opencv-python="^4.10.0"
+matplotlib="^3.9.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest="^8.0.0"
+ruff="^0.6.0"
+black="^24.0.0"
+
+[build-system]
+requries=["poetry-core"]
+build-backend="poetry.core.masonry.api"
